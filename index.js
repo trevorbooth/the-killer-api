@@ -243,7 +243,7 @@ killers.forEach(killer => {
 
 
 
-                const tableRow = {
+                const preCleanScrapedData = {
                     name: killer.name,
                     //photo: img,
                     born,
@@ -264,8 +264,19 @@ killers.forEach(killer => {
                     //about,
                     source: killer.address
                 }
+                
+                
+                const removeEmptyOrNull = (obj) => {
+            Object.keys(obj).forEach(k =>
+                (obj[k] && typeof obj[k] === 'object') && removeEmptyOrNull(obj[k]) ||
+                (!obj[k] && obj[k] !== undefined) && delete obj[k]
+            )
+            return obj
+        }
+                
+                const scrapedData = removeEmptyOrNull(preCleanScrapedData) 
 
-                articles.push(tableRow)
+                articles.push(scrapedData)
             })
 
 
