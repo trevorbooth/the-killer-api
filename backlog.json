@@ -1,11 +1,16 @@
+
+// Correct format
 {
     name: 'Luis Garavito',
     url: 'https: //en.wikipedia.org/wiki/Luis_Garavito'
 },
-{
-    name: 'Pedro López',
-    url: 'https: //en.wikipedia.org/wiki/Pedro_L%C3%B3pez_(serial_killer)'
-},
+
+
+
+//    {
+//    name: Pedro López,
+//    url: https: //en.wikipedia.org/wiki/Pedro_L%C3%B3pez_(serial_killer)
+//     },
 //     {
 //         name: Yvan Keller,
 //         url: https://en.wikipedia.org/wiki/Yvan_Keller 
