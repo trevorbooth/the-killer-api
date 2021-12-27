@@ -214,67 +214,78 @@ killers.forEach(killer => {
 
             $('table.biography > tbody', html).each(function () {
 
-                // const protocol = 'https:'
-                // const imgFilePath = $('img').parent('.infobox-image').attr('src')
-                // const img = protocol + imgFilePath
-
-                $(html).find('br').replaceWith('/n')
+                const protocol = 'https:'
+                const imgFilePath = $('td > a > img').attr('src')
+                const img = protocol + imgFilePath
 
 
-                const born = $('tr:contains("Born")').children('td').text()
-                const died = $('tr:contains("Died")').children('td').text()
-                const death = $('tr:contains("death")').children('td').text()
-                const nicknames = $('tr:contains("names")').children('td').text()
-                const height = $('tr:contains("Height")').children('td').text()
-                const penalty = $('tr:contains("Penalty")').children('td').text()
-                const charges = $('tr:contains("penalty")').children('td').text()
-                const methods = $('tr:contains("Conviction(s)")').children('td').text()
-                const motive = $('tr:contains("Motive")').children('td').text()
-                const victims = $('tr:contains("Victims")').children('td').text()
-                const active = $('tr:contains("crimes")').children('td').text()
-                const country = $('tr:contains("Country")').children('td').text()
-                const states = $('tr:contains("State(s)")').children('td').text()
-                const apprehended = $('tr:contains("apprehended")').children('td').text()
-                const imprisoned = $('tr:contains("Imprisoned")').children('td').text()
+                // Dealing with <br>
+                $('table.biography > tbody > tr > td br').replaceWith(', ')
+
+                // Dealing with Inline References 
+                $('table.biography > tbody > tr > td sup').replaceWith('')
+
+                // Data from tables
+                const born = $('tr:contains("Born")').children('td.infobox-data').text()
+                const died = $('tr:contains("Died")').children('td.infobox-data').text()
+                const death = $('tr:contains("death")').children('td.infobox-data').text()
+                const nicknames = $('tr:contains("names")').children('td.infobox-data').text()
+                const spouse = $('tr:contains("Spouse(s)")').children('td.infobox-data').text()
+                const height = $('tr:contains("Height")').children('td.infobox-data').text()
+                const penalty = $('tr:contains("Penalty")').children('td.infobox-data').text()
+                const charges = $('tr:contains("penalty")').children('td.infobox-data').text()
+                const methods = $('tr:contains("Conviction(s)")').children('td.infobox-data').text()
+                const convictions = $('tr:contains("Conviction(s)")').children('td.infobox-data ul li a').text()
+                const motive = $('tr:contains("Motive")').children('td.infobox-data').text()
+                const victims = $('tr:contains("Victims")').children('td.infobox-data').text()
+                const active = $('tr:contains("crimes")').children('td.infobox-data').text()
+                const country = $('tr:contains("Country")').children('td.infobox-data').text()
+                const states = $('tr:contains("State(s)")').children('td.infobox-data').text()
+                const apprehended = $('tr:contains("apprehended")').children('td.infobox-data').text()
+                const escaped = $('tr:contains("Escaped")').children('td.infobox-data').text()
+                const imprisoned = $('tr:contains("Imprisoned")').children('td.infobox-data').text()
                 //const about = $('p').text()
 
-                // Account for Multiple Nick Names, states, etc. - Deal with <br>
-                //const nicknames = otherNames.split('<br>').map(part => cheerio.load(part).text().trim())
+
 
 
 
                 const preCleanScrapedData = {
                     name: killer.name,
-                    //photo: img,
+                    photo: img,
                     born,
                     died,
                     death,
                     nicknames,
+                    spouse,
                     height,
                     'criminal penalty': penalty,
                     'charged with': charges,
                     'method(s)': methods,
+                    'conviction(s)': convictions,
                     motive,
                     victims,
                     active,
                     country,
                     'state(s)': states,
                     apprehended,
+                    escaped,
                     imprisoned,
                     //about,
                     source: killer.address
                 }
-                
-                
+
+                // Remove empty or null
                 const removeEmptyOrNull = (obj) => {
-            Object.keys(obj).forEach(k =>
-                (obj[k] && typeof obj[k] === 'object') && removeEmptyOrNull(obj[k]) ||
-                (!obj[k] && obj[k] !== undefined) && delete obj[k]
-            )
-            return obj
-        }
-                
-                const scrapedData = removeEmptyOrNull(preCleanScrapedData) 
+                    Object.keys(obj).forEach(k =>
+                        (obj[k] && typeof obj[k] === 'object') && removeEmptyOrNull(obj[k]) ||
+                        (!obj[k] && obj[k] !== undefined) && delete obj[k]
+                    )
+                    return obj
+                }
+
+                const scrapedData = removeEmptyOrNull(preCleanScrapedData)
+
 
                 articles.push(scrapedData)
             })
