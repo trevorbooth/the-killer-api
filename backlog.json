@@ -1,32 +1,13 @@
-
 // Correct format
 {
     name: 'Luis Garavito',
     url: 'https: //en.wikipedia.org/wiki/Luis_Garavito'
 },
-
-
-
 //    {
 //    name: 'Pedro López',
 //    url: 'https: //en.wikipedia.org/wiki/Pedro_L%C3%B3pez_(serial_killer)'
 //     },
-//     {
-//         name: 'Yvan Keller',
-//         url: 'https://en.wikipedia.org/wiki/Yvan_Keller' 
-//     },
-//     {
-//         name: 'Ronald Dominique,
-//         url: 'https://en.wikipedia.org/wiki/Ronald_Dominique' 
-//     },
-//     {
-//         name: 'Juan Fernando Hermosa',
-//         url: 'https://en.wikipedia.org/wiki/Juan_Fernando_Hermosa' 
-//     },
-//     {
-//         name: 'Earle Nelson',
-//         url: 'https://en.wikipedia.org/wiki/Earle_Nelson' 
-//     },
+//     ,
 //     {
 //         name: Mikhail Novosyolov,
 //         url: https://en.wikipedia.org/wiki/Mikhail_Novosyolov 

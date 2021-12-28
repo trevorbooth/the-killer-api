@@ -198,6 +198,22 @@ const killers = [
     {
         name: 'Majid Salek Mohammadi',
         address: 'https://en.wikipedia.org/wiki/Majid_Salek_Mohammadi'
+    },
+    {
+        name: 'Yvan Keller',
+        address: 'https://en.wikipedia.org/wiki/Yvan_Keller'
+    },
+    {
+        name: 'Ronald Dominique',
+        address: 'https://en.wikipedia.org/wiki/Ronald_Dominique'
+    },
+    {
+        name: 'Juan Fernando Hermosa',
+        address: 'https://en.wikipedia.org/wiki/Juan_Fernando_Hermosa'
+    },
+    {
+        name: 'Earle Nelson',
+        address: 'https://en.wikipedia.org/wiki/Earle_Nelson'
     }
 ]
 
