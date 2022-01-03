@@ -214,6 +214,202 @@ const killers = [
     {
         name: 'Earle Nelson',
         address: 'https://en.wikipedia.org/wiki/Earle_Nelson'
+    },
+    {
+        name: 'Leonard Lake',
+        address: 'https://en.wikipedia.org/wiki/Leonard_Lake'
+    },
+    {
+        name: 'Charles Ng',
+        address: 'https://en.wikipedia.org/wiki/Charles_Ng'
+    },
+    {
+        name: 'Shen Changyin and Shen Changping',
+        address: 'https://en.wikipedia.org/wiki/Shen_Changyin_and_Shen_Changping'
+    },
+    {
+        name: 'Polatbay Berdaliyev',
+        address: 'https://en.wikipedia.org/wiki/Polatbay_Berdaliyev'
+    },
+    {
+        name: 'Wolfgang Abel and Marco Faddressan',
+        address: 'https://en.wikipedia.org/wiki/Wolfgang_Abel_and_Marco_Faddressan'
+    },
+    {
+        name: 'Juan Carlos Hernández and Patricia Martínez',
+        address: 'https://en.wikipedia.org/wiki/Monsters_of_Ecatepec'
+    },
+    {
+        name: 'Joshi - Abhyankar serial murderers',
+        address: 'https://en.wikipedia.org/wiki/Joshi-Abhyankar_serial_murders'
+    },
+    {
+        name: 'Gerald and Charlene Gallego',
+        address: 'https://en.wikipedia.org/wiki/Gerald_and_Charlene_Gallego'
+    },
+    {
+        name: 'Viña del Mar psychopaths',
+        address: 'https://en.wikipedia.org/wiki/Vi%C3%B1a_del_Mar_psychopaths'
+    },
+    {
+        name: 'Yevgeny Nagorny',
+        address: 'https://en.wikipedia.org/wiki/Yevgeny_Nagorny'
+    },
+    {
+        name: 'National Socialist Underground',
+        address: 'https://en.wikipedia.org/wiki/National_Socialist_Underground'
+    },
+    {
+        name: 'Song Jinghua',
+        address: 'https://en.wikipedia.org/wiki/Song_Jinghua'
+    },
+    {
+        name: 'Tadeusz Grzesik',
+        address: 'https://en.wikipedia.org/wiki/Tadeusz_Grzesik'
+    },
+    {
+        name: 'Edgar Álvarez Cruz and Francisco Granados',
+        address: 'https://en.wikipedia.org/wiki/Feminicides_of_the_cotton_field'
+    },
+    {
+        name: 'The Ciudad Juárez Rebels',
+        address: 'https://en.wikipedia.org/wiki/The_Ciudad_Ju%C3%A1rez_Rebels'
+    },
+    {
+        name: 'The Manson Family cult killings',
+        address: 'https://en.wikipedia.org/wiki/Manson_Family'
+    },
+    {
+        name: 'Christopher Worrell and James Mille',
+        address: 'https://en.wikipedia.org/wiki/Truro_murders'
+    },
+    {
+        name: 'Kiss brothers and István Pető',
+        address: 'https://en.wikipedia.org/wiki/Budapest_serial_killings'
+    },
+    {
+        name: 'Ray and Faye Copeland',
+        address: 'https://en.wikipedia.org/wiki/Ray_and_Faye_Copeland'
+    },
+    {
+        name: 'Ian Brady',
+        address: 'https://en.wikipedia.org/wiki/Ian_Brady'
+    },
+    {
+        name: 'Myra Hindley',
+        address: 'https://en.wikipedia.org/wiki/Myra_Hindley'
+    },
+    {
+        name: 'Skin Hunters',
+        address: 'https://en.wikipedia.org/wiki/Skin_Hunters'
+    },
+    {
+        name: 'Loren Herzog and Wesley Shermantine',
+        address: 'https://en.wikipedia.org/wiki/Speed_Freak_Killers'
+    },
+    {
+        name: 'Raymond Fernandez and Martha Beck',
+        address: 'https://en.wikipedia.org/wiki/Raymond_Fernandez_and_Martha_Beck'
+    },
+    {
+        name: 'Beasts of Satan',
+        address: 'https://en.wikipedia.org/wiki/Beasts_of_Satan'
+    },
+    {
+        name: 'James Paster and Stephen McCoy',
+        address: 'https://en.wikipedia.org/wiki/James_Paster_and_Stephen_McCoy'
+    },
+    {
+        name: 'David Moor',
+        address: 'https://en.wikipedia.org/wiki/David_Moor'
+    },
+    {
+        name: 'Bruno Lüdke',
+        address: 'https://en.wikipedia.org/wiki/Bruno_L%C3%BCdke'
+    },
+    {
+        name: 'Highway of Tears Killer',
+        address: 'https://en.wikipedia.org/wiki/Highway_of_Tears_murders'
+    },
+    {
+        name: 'Howard Martin',
+        address: 'https://en.wikipedia.org/wiki/Howard_Martin'
+    },
+    {
+        name: 'Gerald Stano',
+        address: 'https://en.wikipedia.org/wiki/Gerald_Stano'
+    },
+    {
+        name: 'Orlando Sabino',
+        address: 'https://en.wikipedia.org/wiki/Orlando_Sabino'
+    },
+    {
+        name: 'Pedro Rosa da Conceição',
+        address: 'https://en.wikipedia.org/wiki/Pedro_Rosa_da_Concei%C3%A7%C3%A3o'
+    },
+    {
+        name: 'Henry Lee Lucas',
+        address: 'https://en.wikipedia.org/wiki/Henry_Lee_Lucas'
+    },
+    {
+        name: 'Charles Quansah',
+        address: 'https://en.wikipedia.org/wiki/Charles_Quansah'
+    },
+    {
+        name: 'Ottis Toole',
+        address: 'https://en.wikipedia.org/wiki/Ottis_Toole'
+    },
+    {
+        name: 'Wayne Williams',
+        address: 'https://en.wikipedia.org/wiki/Wayne_Williams'
+    },
+    {
+        name: 'Kieran Patrick Kelly',
+        address: 'https://en.wikipedia.org/wiki/Kieran_Patrick_Kelly'
+    },
+    {
+        name: 'Allan Grimson',
+        address: 'https://en.wikipedia.org/wiki/Allan_Grimson'
+    },
+    {
+        name: 'Billy Edwin Reid',
+        address: 'https://en.wikipedia.org/wiki/Billy_Edwin_Reid'
+    },
+    {
+        name: 'Joe Ball',
+        address: 'https://en.wikipedia.org/wiki/Joe_Ball'
+    },
+    {
+        name: 'Jessie McTavish',
+        address: 'https://en.wikipedia.org/wiki/Jessie_McTavish'
+    },
+    {
+        name: 'Abdul Latif Sharif',
+        address: 'https://en.wikipedia.org/wiki/Abdul_Latif_Sharif'
+    },
+    {
+        name: 'Daisuke Mori',
+        address: 'https://en.wikipedia.org/wiki/Daisuke_Mori'
+    },
+    {
+        name: 'Bevan Spencer von Einem',
+        address: 'https://en.wikipedia.org/wiki/Bevan_Spencer_von_Einem'
+    },
+    {
+        name: 'Edgar Matobato',
+        address: 'https://en.wikipedia.org/wiki/Edgar_Matobato'
+    },
+    {
+        name: 'John Bodkin Adams',
+        address: 'https://en.wikipedia.org/wiki/John_Bodkin_Adams'
+    },
+    {
+        name: 'The Man from the Train',
+        address: 'https://en.wikipedia.org/wiki/The_Man_from_the_Train'
+    },
+    {
+        name: 'David Parker Ray',
+        address: 'https://en.wikipedia.org/wiki/David_Parker_Ray'
     }
 ]
 
