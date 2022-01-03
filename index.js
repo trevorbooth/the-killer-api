@@ -413,8 +413,6 @@ const killers = [
     }
 ]
 
-
-
 const articles = []
 
 killers.forEach(killer => {
@@ -429,7 +427,6 @@ killers.forEach(killer => {
                 const protocol = 'https:'
                 const imgFilePath = $('td > a > img').attr('src')
                 const img = protocol + imgFilePath
-
 
                 // Dealing with <br>
                 $('table.biography > tbody > tr > td br').replaceWith(', ')
@@ -457,10 +454,6 @@ killers.forEach(killer => {
                 const escaped = $('tr:contains("Escaped")').children('td.infobox-data').text()
                 const imprisoned = $('tr:contains("Imprisoned")').children('td.infobox-data').text()
                 //const about = $('p').text()
-
-
-
-
 
                 const preCleanScrapedData = {
                     name: killer.name,
@@ -498,7 +491,6 @@ killers.forEach(killer => {
 
                 const scrapedData = removeEmptyOrNull(preCleanScrapedData)
 
-
                 articles.push(scrapedData)
             })
 
@@ -516,7 +508,6 @@ app.get('/', (req, res) => {
 app.get('/serial-killers', (req, res) => {
     res.json(articles)
 })
-
 
 
 
