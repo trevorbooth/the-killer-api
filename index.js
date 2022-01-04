@@ -1,4 +1,4 @@
-const PORT = 8000 || the-killer-api.heroku.com
+const PORT = 8000
 const express = require('express')
 const axios = require('axios');
 const cheerio = require('cheerio');
